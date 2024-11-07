@@ -48,6 +48,21 @@ const ProjectsSection = () => {
       pdfUrl: "/portfolio/pdfs/AE_353___DP_4-2.pdf" // Add your PDF URL here
     },
     {
+      title: "NeutralView - Political Bias Analysis Extension",
+      description: `Developed a Chrome extension that analyzes news articles for political bias and maps their 
+      ideological alignment on a political compass using OpenAI's GPT API:
+
+      • Designed a Chrome extension that analyzes articles when users browse news sites
+      • Integrated OpenAI's API to evaluate political bias and ideological markers in text
+      • Created an interactive political compass visualization using D3.js to display results
+      • Developed caching system to store and retrieve previous analyses, reducing API calls`,
+
+      image: "public/images/neutralView.png",
+      imageAlt: "PolitiLens Chrome Extension",
+      tags: ["JavaScript", "Python", "OpenAI API", "D3.js", "Chrome Extension"],
+      pdfUrl: "https://chromewebstore.google.com/detail/neutralview/mhggipmdkencnebbklmbgdlkojkfimli"
+    },
+    {
       title: "GreenPrints: Sustainable 3D Printer Filament",
       description: `Developed an innovative recycling solution that transforms waste soda bottles into 
       3D printer filament, achieving a remarkable 90% reduction in plastic waste. The project 
