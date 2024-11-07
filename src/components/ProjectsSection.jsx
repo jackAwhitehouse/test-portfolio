@@ -4,9 +4,38 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './ui/
 const ProjectsSection = () => {
   const projects = [
     {
+      title: "CHEETA UAV Structural Design and Testing",
+      description: `Structural design and testing of a 5% scale hydrogen-powered aircraft for NASA's Center for 
+      High-Efficiency Electrical Technologies for Aircraft (CHEETA) program:
+
+      • Designed and validated capable wing structure utilizing SolidWorks and AbaqusCAE for modeling and analysis
+      • Developed manufacturing method for CHEETA UAV wing, using a hybrid material structure of balsa wood, carbon fiber spars, and lite-ply components
+      • Conducted iterative strength testing achieving 26 lbs load capacity per wing, a 13% improvement over initial design
+      • Integrated 6 under-wing electric ducted fans providing 1.3 kW power each for distributed propulsion
+      • Produced solutions to unique aircraft design challenge of a high-wing ultra-thin swept wing with distribued propulsion inboard of the kink. 
+      • Project supported by NASA under award number 80NSSC23M0063`,
+      image: "/portfolio/images/cheeta_wing_cad.png",
+      imageAlt: "CHEETA UAV Development",
+      tags: ["NASA Research", "Structural Design", "FEM Analysis", "Aerospace", "Composite Materials"],
+      pdfUrl: "/portfolio/pdfs/Cheeta presentation 91024.pdf"
+    },
+    {
+      title: "CHEETA UAV Wing Structure Analysis",
+      description: `Conducted finite element analysis on a 5% scale model of the CHEETA hydrogen-powered UAV wing structure using Abaqus CAE:
+      
+      • Identified critical stress concentrations to inform structural design
+      • Developed optimized internal wing structure with multiple spars and reinforced ribs
+      • Generated well calibrated FEM model with tetrahedral mesh elements and realistic flight loads
+      • Simulated elliptical lift distribution for UAV cruise lift condition
+      • Designed structure capable of 33% chord length elastic tip deflection`,
+      image: "/portfolio/images/Fem_screenshot.png",
+      imageAlt: "CHEETA UAV FEM Analysis",
+      tags: ["FEM Analysis", "Abaqus CAE", "SolidWorks", "Structural Design", "Aircraft Design"],
+      pdfUrl: "/portfolio/pdfs/FEM_Project-3.pdf" // Add your PDF URL here
+    },
+    {
       title: "Autonomous Drone Race Controller",
-      description: `Developed a sophisticated autonomous controller for a racing quadcopter using state-space modeling 
-      and linear quadratic regulation (LQR). The controller achieved remarkable performance metrics:
+      description: `Developed an autonomous controller for a racing quadrotor using state-space modeling and linear quadratic regulation. The controller achieved remarkable performance metrics:
       
       • Successfully maintained position accuracy with RMSE < 0.25m in >60% of trials
       • Completed race course in average time of 25 seconds
@@ -17,21 +46,6 @@ const ProjectsSection = () => {
       imageAlt: "Drone race controller visualization",
       tags: ["Control Systems", "Python", "State-Space Modeling", "LQR", "MATLAB"],
       pdfUrl: "/portfolio/pdfs/AE_353___DP_4-2.pdf" // Add your PDF URL here
-    },
-    {
-      title: "CHEETA UAV Wing Structure Analysis",
-      description: `Conducted finite element analysis (FEM) on a 5% scale model of the CHEETA hydrogen-powered UAV wing 
-      structure using Abaqus CAE:
-      
-      • Identified critical stress concentrations at wing kink measuring 1.046×10^5 Pa
-      • Developed optimized internal wing structure with multiple spars and reinforced ribs
-      • Created accurate FEM model with tetrahedral mesh elements and realistic flight loads
-      • Simulated elliptical lift distribution for 50N total lift condition
-      • Designed structure capable of 33% chord length elastic tip deflection`,
-      image: "/api/placeholder/600/400",
-      imageAlt: "CHEETA UAV FEM Analysis",
-      tags: ["FEM Analysis", "Abaqus CAE", "SolidWorks", "Structural Design", "Aerospace"],
-      pdfUrl: "#" // Add your PDF URL here
     },
     {
       title: "GreenPrints: Sustainable 3D Printer Filament",
@@ -55,16 +69,7 @@ const ProjectsSection = () => {
       tags: ["Aerospace", "Control Systems", "Flight Testing"],
       pdfUrl: "#" // Replace with your actual PDF URL
     },
-    {
-      title: "Template Project",
-      description: `[Template] Add your project description here. Include key achievements, 
-      technologies used, and quantifiable results. Describe the problem you solved and its impact. 
-      Consider adding metrics, scale, or improvements achieved.`,
-      image: "/api/placeholder/600/400",
-      imageAlt: "Project image",
-      tags: ["Tag1", "Tag2", "Tag3"],
-      pdfUrl: "#" // Replace with your actual PDF URL
-    }
+    
   ];
 
   return (
