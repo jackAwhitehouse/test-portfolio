@@ -57,7 +57,7 @@ const ProjectsSection = () => {
       • Created an interactive political compass visualization using D3.js to display results
       • Developed caching system to store and retrieve previous analyses, reducing API calls`,
 
-      image: "public/images/neutralView.png",
+      image: "/portfolio/images/neutralView.png",
       imageAlt: "PolitiLens Chrome Extension",
       tags: ["JavaScript", "Python", "OpenAI API", "D3.js", "Chrome Extension"],
       pdfUrl: "https://chromewebstore.google.com/detail/neutralview/mhggipmdkencnebbklmbgdlkojkfimli"
