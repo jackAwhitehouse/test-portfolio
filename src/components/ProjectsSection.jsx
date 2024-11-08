@@ -16,7 +16,7 @@ const ProjectsSection = () => {
       • Project supported by NASA under award number 80NSSC23M0063`,
       image: "/portfolio/images/cheeta_wing_cad.png",
       imageAlt: "CHEETA UAV Development",
-      tags: ["NASA Research", "Structural Design", "FEM Analysis", "Aerospace", "Composite Materials"],
+      tags: ["SolidWorks", "Structural Design", "Aircraft Design", "Composite Materials"],
       pdfUrl: "/portfolio/pdfs/Cheeta presentation 91024.pdf"
     },
     {
@@ -30,7 +30,7 @@ const ProjectsSection = () => {
       • Designed structure capable of 33% chord length elastic tip deflection`,
       image: "/portfolio/images/Fem_screenshot.png",
       imageAlt: "CHEETA UAV FEM Analysis",
-      tags: ["FEM Analysis", "Abaqus CAE", "SolidWorks", "Structural Design", "Aircraft Design"],
+      tags: ["FEM Analysis", "AbaqusCAE", "SolidWorks", "Structural Design", "Aircraft Design"],
       pdfUrl: "/portfolio/pdfs/FEM_Project-3.pdf" // Add your PDF URL here
     },
     {
