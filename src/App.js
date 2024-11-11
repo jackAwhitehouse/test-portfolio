@@ -33,7 +33,7 @@ function App() {
           </div>
           <div className="flex-shrink-0">
             <img
-              src="/portfolio/images/headshot.jpg"
+              src="public\images\headshot.jpg"
               alt="Jack Whitehouse"
               className="w-24 h-24 rounded-full object-cover border-2 border-gray-200 shadow-lg"
             />
