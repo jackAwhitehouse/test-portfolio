@@ -14,10 +14,10 @@ const ProjectsSection = () => {
       • Integrated 6 under-wing electric ducted fans providing 1.3 kW power each for distributed propulsion
       • Produced solutions to unique aircraft design challenge of a high-wing ultra-thin swept wing with distribued propulsion inboard of the kink. 
       • Project supported by NASA under award number 80NSSC23M0063`,
-      image: "/portfolio/images/cheeta_wing_cad.png",
+      image: "/portfolio/public/images/cheeta_wing_cad.png",
       imageAlt: "CHEETA UAV Development",
       tags: ["SolidWorks", "Structural Design", "Aircraft Design", "Composite Materials"],
-      pdfUrl: "/portfolio/pdfs/Cheeta presentation 91024.pdf"
+      pdfUrl: "/portfolio/public/pdfs/Cheeta presentation 91024.pdf"
     },
     {
       title: "CHEETA UAV Wing Structure Analysis",
@@ -28,7 +28,7 @@ const ProjectsSection = () => {
       • Generated well calibrated FEM model with tetrahedral mesh elements and realistic flight loads
       • Simulated elliptical lift distribution for UAV cruise lift condition
       • Designed structure capable of 33% chord length elastic tip deflection`,
-      image: "/portfolio/images/Fem_screenshot.png",
+      image: "/portfolio/public/images/Fem_screenshot.png",
       imageAlt: "CHEETA UAV FEM Analysis",
       tags: ["FEM Analysis", "AbaqusCAE", "SolidWorks", "Structural Design", "Aircraft Design"],
       pdfUrl: "/portfolio/pdfs/FEM_Project-3.pdf" // Add your PDF URL here
@@ -42,10 +42,10 @@ const ProjectsSection = () => {
       • Implemented full state feedback control with optimal gain matrices
       • Designed observer system using motion capture for state estimation
       • Achieved 2nd place in competition among 20+ teams`,
-      image: "/portfolio/images/Drone_race.png",
+      image: "/portfolio/public/images/Drone_race.png",
       imageAlt: "Drone race controller visualization",
       tags: ["Control Systems", "Python", "State-Space Modeling", "LQR", "MATLAB"],
-      pdfUrl: "/portfolio/pdfs/AE_353___DP_4-2.pdf" // Add your PDF URL here
+      pdfUrl: "/portfolio/public/pdfs/AE_353___DP_4-2.pdf" // Add your PDF URL here
     },
     {
       title: "NeutralView - Political Bias Analysis Extension",
@@ -57,7 +57,7 @@ const ProjectsSection = () => {
       • Created an interactive political compass visualization using D3.js to display results
       • Developed caching system to store and retrieve previous analyses, reducing API calls`,
 
-      image: "/portfolio/images/neutralView.png",
+      image: "/portfolio/public/images/neutralView.png",
       imageAlt: "PolitiLens Chrome Extension",
       tags: ["JavaScript", "Python", "OpenAI API", "D3.js", "Chrome Extension"],
       pdfUrl: "https://chromewebstore.google.com/detail/neutralview/mhggipmdkencnebbklmbgdlkojkfimli"
@@ -66,8 +66,7 @@ const ProjectsSection = () => {
       title: "GreenPrints: Sustainable 3D Printer Filament",
       description: `Developed an innovative recycling solution that transforms waste soda bottles into 
       3D printer filament, achieving a remarkable 90% reduction in plastic waste. The project 
-      incorporates automated machine operations through C++ and Python programming, significantly 
-      enhancing recycling and production efficiency.`,
+      incorporates automated machine operations through C++ and Python programming.`,
       image: "/api/placeholder/600/400",
       imageAlt: "GreenPrints recycling system",
       tags: ["Sustainability", "Automation", "Python", "C++"],
@@ -79,10 +78,10 @@ const ProjectsSection = () => {
       deployable solid rocket booster system. Achieved precise deployment timing within 50 milliseconds 
       of pilot activation and maintained stable flight characteristics throughout all deployment phases. 
       Successfully completed two test flights demonstrating system reliability.`,
-      image: "/api/placeholder/600/400",
+      image: "/portfolio/public/images/rocket_plane.jpeg",
       imageAlt: "RC Aircraft with rocket booster",
       tags: ["Aerospace", "Control Systems", "Flight Testing"],
-      pdfUrl: "#" // Replace with your actual PDF URL
+      pdfUrl: "https://www.youtube.com/watch?feature=shared&v=9WSeMdvCq4c" // Replace with your actual PDF URL
     },
     
   ];
