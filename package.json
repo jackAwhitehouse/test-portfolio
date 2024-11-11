@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://jackAwhitehouse.github.io/portfolio",
+  "homepage": "https://jackwhitehouse.info",
   "private": true,
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
