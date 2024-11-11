@@ -14,7 +14,7 @@ const ProjectsSection = () => {
       • Integrated 6 under-wing electric ducted fans providing 1.3 kW power each for distributed propulsion
       • Produced solutions to unique aircraft design challenge of a high-wing ultra-thin swept wing with distribued propulsion inboard of the kink. 
       • Project supported by NASA under award number 80NSSC23M0063`,
-      image: "public\images\cheeta_wing_cad.png",
+      image: "images\cheeta_wing_cad.png",
       imageAlt: "CHEETA UAV Development",
       tags: ["SolidWorks", "Structural Design", "Aircraft Design", "Composite Materials"],
       pdfUrl: "pdfs/Cheeta presentation 91024.pdf"
