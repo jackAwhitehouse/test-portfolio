@@ -21,7 +21,7 @@ function App() {
                 <span>LinkedIn</span>
               </a>
               <a 
-                href="/portfolio/pdfs/Jack_Whitehouse_Resume-4.pdf" 
+                href="pdfs/Jack_Whitehouse_Resume-4.pdf" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-600 hover:text-gray-800 transition-colors"
@@ -33,7 +33,7 @@ function App() {
           </div>
           <div className="flex-shrink-0">
             <img
-              src="public\images\headshot.jpg"
+              src="images/headshot.jpg"
               alt="Jack Whitehouse"
               className="w-24 h-24 rounded-full object-cover border-2 border-gray-200 shadow-lg"
             />
